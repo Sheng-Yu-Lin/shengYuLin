@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+html, html::before, html::after, body, body::before, body::after {
+  font-size: 10px;
+  line-height: 1.5;
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+  font-weight: 400; }
+
+.main > * > *, .footer > *, .footer > * > * {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (max-width: 768px) {
+  .main > * > *, .footer > *, .footer > * > * {
+    width: 690px; } }
+
+@media (max-width: 375px) {
+  .top0-header, .main, .footer {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .top0-header, .main > *, .footer > * {
+    width: 375px; }
+  .main > * > *, .footer > * > * {
+    width: 345px; } }
+
+@media (max-width: 374px) {
+  .top0-header, .main > *, .footer, .footer > * {
+    width: 345px; } }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: block; }
+
+a:hover {
+  text-decoration: underline; }
+
+.top0-header .title {
+  color: #fff;
+  background-color: #AA0601;
+  padding-left: 88px;
+  padding-right: 88px;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (max-width: 768px) {
+  .top0-header .title {
+    padding-left: 39px;
+    padding-right: 39px; } }
+
+@media (max-width: 375px) {
+  .top0-header .title {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    height: 100%; }
+  .top0-header .title * {
+    display: block; } }
+
+.top0-header .title li {
+  display: inline-block;
+  font-size: 2rem; }
+
+.top0-header .title li:not(:first-of-type) {
+  margin-left: 64px; }
+
+@media (max-width: 768px) {
+  .top0-header .title li:not(:first-of-type) {
+    margin-left: 40px; } }
+
+@media (max-width: 375px) {
+  .top0-header .title .logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff; }
+  .top0-header .title .logo img {
+    width: 48px;
+    height: 29px;
+    margin-left: auto;
+    margin-right: auto; }
+  .top0-header .title li:not(:first-of-type) {
+    margin-left: 0; }
+  .top0-header .title li {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    border: 1px solid #fff;
+    border-top: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  .top0-header .title li a {
+    line-height: 2.9rem; }
+  .top0-header .title li:nth-child(odd) {
+    border-right: none; } }
+
+.footer {
+  background-color: #AA0601;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 39px;
+  font-size: 1.6rem; }
+
+@media (max-width: 768px) {
+  .footer > * {
+    width: 690px; } }
+
+@media (max-width: 375px) {
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 1.4rem; }
+  .footer > * {
+    width: 345px; }
+  .footer .footer-top nav {
+    display: none; }
+  .footer .footer-middle {
+    position: absolute;
+    top: 24px; } }
+
+@media (max-width: 375px) {
+  .footer > * {
+    width: 100%; } }
+
+.footer .footer-top, .footer .footer-top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.footer .footer-top nav {
+  width: 464px;
+  margin-left: 0; }
+
+.footer .footer-top > ul {
+  width: 208px;
+  margin-right: 0; }
+
+@media (max-width: 768px) {
+  .footer .footer-top nav {
+    width: 432px; }
+  .footer .footer-top > ul {
+    width: 120px; }
+  .footer .footer-top > ul img {
+    width: 24px;
+    height: 24px; } }
+
+.footer .footer-middle {
+  margin-top: 24px; }
+
+@media (max-width: 375px) {
+  .footer .footer-middle {
+    margin-top: 0; }
+  .footer .footer-middle ul {
+    margin-left: 0; } }
+
+.footer .footer-middle li:not(:last-of-type) {
+  margin-bottom: 16px; }
+
+@media (max-width: 768px) {
+  .footer .footer-middle li:not(:last-of-type) {
+    margin-bottom: 12px; } }
+
+.footer .footer-middle li * {
+  display: inline-block;
+  vertical-align: middle; }
+
+.footer .footer-middle li p {
+  font-size: 3.6rem;
+  margin-left: 16px; }
+
+@media (max-width: 768px) {
+  .footer .footer-middle li p {
+    font-size: 2rem;
+    margin-left: 8px; }
+  .footer .footer-middle li img {
+    width: 18px;
+    height: 18px; } }
+
+@media (max-width: 375px) {
+  .footer .footer-middle li p {
+    font-size: 1.6rem;
+    margin-left: 6px; } }
+
+.footer .custom-hr {
+  border: none;
+  border-top: 1px solid #fff;
+  margin-top: 24px;
+  margin-bottom: 32px; }
+
+@media (max-width: 768px) {
+  .footer .custom-hr {
+    margin-top: 20px;
+    margin-bottom: 24px; } }
+
+@media (max-width: 375px) {
+  .footer .custom-hr {
+    margin-top: 49px;
+    margin-bottom: 16px; } }
+
+.footer .footer-bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (max-width: 375px) {
+  .footer .footer-bottom ul {
+    display: block; } }
+
+.footer .footer-bottom ul li small {
+  font-size: 1.4rem; }
+
+.footer .footer-bottom ul li {
+  display: block; }
+
+@media (max-width: 375px) {
+  .footer .footer-bottom ul li:not(:last-of-type) {
+    margin-bottom: 8px; } }
+
+.footer .footer-bottom ul li:first-of-type {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.footer .footer-bottom ul li:last-of-type {
+  margin-left: 48px; }
+
+@media (max-width: 768px) {
+  .footer .footer-bottom ul li:last-of-type {
+    margin-left: 24px; } }
+
+@media (max-width: 375px) {
+  .footer .footer-bottom ul li:last-of-type {
+    margin-left: 0; } }
+
+/*# sourceMappingURL=all2.css.map */
