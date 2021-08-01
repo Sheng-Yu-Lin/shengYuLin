@@ -10,11 +10,11 @@ html, html::before, html::after, body, body::before, body::after {
   margin-left: auto;
   margin-right: auto; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main > * > *, .footer > *, .footer > * > * {
     width: 690px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .top0-header, .main, .footer {
     padding-left: 15px;
     padding-right: 15px; }
@@ -56,12 +56,12 @@ a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .top0-header .title {
     padding-left: 39px;
     padding-right: 39px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .top0-header .title {
     padding-left: 0;
     padding-right: 0;
@@ -77,11 +77,11 @@ a:hover {
 .top0-header .title li:not(:first-of-type) {
   margin-left: 64px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .top0-header .title li:not(:first-of-type) {
     margin-left: 40px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .top0-header .title .logo {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -115,11 +115,11 @@ a:hover {
   padding-bottom: 39px;
   font-size: 1.6rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer > * {
     width: 690px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -137,7 +137,7 @@ a:hover {
     position: absolute;
     top: 24px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer > * {
     width: 100%; } }
 
@@ -160,7 +160,7 @@ a:hover {
   width: 208px;
   margin-right: 0; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer .footer-top nav {
     width: 432px; }
   .footer .footer-top > ul {
@@ -172,7 +172,7 @@ a:hover {
 .footer .footer-middle {
   margin-top: 24px; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .footer-middle {
     margin-top: 0; }
   .footer .footer-middle ul {
@@ -181,7 +181,7 @@ a:hover {
 .footer .footer-middle li:not(:last-of-type) {
   margin-bottom: 16px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer .footer-middle li:not(:last-of-type) {
     margin-bottom: 12px; } }
 
@@ -193,7 +193,7 @@ a:hover {
   font-size: 3.6rem;
   margin-left: 16px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer .footer-middle li p {
     font-size: 2rem;
     margin-left: 8px; }
@@ -201,7 +201,7 @@ a:hover {
     width: 18px;
     height: 18px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .footer-middle li p {
     font-size: 1.6rem;
     margin-left: 6px; } }
@@ -212,12 +212,12 @@ a:hover {
   margin-top: 24px;
   margin-bottom: 32px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer .custom-hr {
     margin-top: 20px;
     margin-bottom: 24px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .custom-hr {
     margin-top: 49px;
     margin-bottom: 16px; } }
@@ -233,7 +233,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .footer-bottom ul {
     display: block; } }
 
@@ -243,7 +243,7 @@ a:hover {
 .footer .footer-bottom ul li {
   display: block; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .footer-bottom ul li:not(:last-of-type) {
     margin-bottom: 8px; } }
 
@@ -255,11 +255,11 @@ a:hover {
 .footer .footer-bottom ul li:last-of-type {
   margin-left: 48px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer .footer-bottom ul li:last-of-type {
     margin-left: 24px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .footer .footer-bottom ul li:last-of-type {
     margin-left: 0; } }
 

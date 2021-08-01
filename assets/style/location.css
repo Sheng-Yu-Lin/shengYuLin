@@ -2,12 +2,12 @@
   margin-top: 96px;
   margin-bottom: 160px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location {
     margin-top: 60px;
     margin-bottom: 96px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location {
     margin-top: 28px;
     margin-bottom: 56px; } }
@@ -19,12 +19,12 @@
   border-left: 8px solid #9F1213;
   font-weight: 700; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location h2 {
     border-left: 4px solid #9F1213;
     margin-bottom: 40px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location h2 {
     font-size: 2.8rem;
     padding-left: 8px;
@@ -41,12 +41,12 @@
           align-items: center;
   margin-bottom: 32px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location label {
     font-size: 1.6rem;
     margin-bottom: 24px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location label {
     font-size: 1.4rem;
     margin-bottom: 20px;
@@ -64,13 +64,13 @@
   font-size: 1.8rem;
   padding-left: 19px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location select {
     width: 237px;
     font-size: 1.6rem;
     padding-left: 16px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location select {
     margin-left: 0px;
     width: 277px;
@@ -93,14 +93,14 @@
 .location > ul > li > img {
   height: 224px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li {
     width: 330px; }
   .location > ul > li > img {
     width: 330px;
     height: 164px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location > ul > li {
     width: 345px; }
   .location > ul > li > img {
@@ -127,20 +127,20 @@
 .location > ul > li .button:hover {
   background-color: gray; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li .button {
     width: 328px;
     height: 52px;
     font-size: 1.4rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location > ul > li .button {
     width: 343px; } }
 
 .location > ul > li:nth-of-type(n+4) {
   margin-top: 56px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li:nth-of-type(n+3) {
     margin-top: 20px; } }
 
@@ -152,14 +152,14 @@
   margin-left: 0;
   margin-right: 0; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li:nth-child(0n+2), .location > ul > li:nth-child(2n+3) {
     margin-left: 0;
     margin-right: 0; }
   .location > ul > li:nth-of-type(2n) {
     margin-left: 30px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .location > ul > li {
     margin: 0 !important; }
   .location > ul > li:not(:last-of-type) {
@@ -171,7 +171,7 @@
   border-top: 1px solid #00000020;
   border-bottom: 1px solid #00000020; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li h3 {
     font-size: 1.6rem; } }
 
@@ -193,7 +193,7 @@
   height: 24px;
   margin-right: 8px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li ul li img {
     width: 20px;
     height: 20px; } }
@@ -202,7 +202,7 @@
   width: 267px;
   font-size: 2rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .location > ul > li ul li p, .location > ul > li ul li a {
     width: 252px;
     font-size: 1.4rem; } }

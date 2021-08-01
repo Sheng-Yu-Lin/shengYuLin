@@ -2,7 +2,7 @@
   background-color: #650300;
   font-weight: 700; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul li:last-of-type {
     display: none; } }
 
@@ -20,22 +20,22 @@
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search ul {
     width: 690px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul {
     width: 345px; } }
 
 .search ul li:not(:first-of-type):not(:last-of-type) {
   margin-left: 48px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search ul li:not(:first-of-type):not(:last-of-type) {
     margin-left: 32px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul li:not(:first-of-type):not(:last-of-type) {
     margin-left: 24px; } }
 
@@ -66,7 +66,7 @@
 .search a {
   font-size: 2rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search a {
     font-size: 1.6rem; } }
 
@@ -78,7 +78,7 @@
   margin-bottom: 8px;
   font-size: 1.6rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .breadcrumb {
     font-size: 1.4rem; } }
 
@@ -103,11 +103,11 @@
   color: #aa0601;
   font-weight: 700; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .tag {
     font-size: 1.6rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .tag {
     font-size: 1.4rem; } }
 
@@ -125,12 +125,12 @@
   width: 825px;
   margin-bottom: 160px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog-content .main-space {
     width: 510px;
     margin-bottom: 96px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog-content .main-space {
     width: 345px;
     margin-bottom: 30px; } }
@@ -138,11 +138,11 @@
 .blog-content .side-space {
   width: 245px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog-content .side-space {
     width: 150px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog-content .side-space {
     width: 345px;
     margin-bottom: 56px; } }
@@ -162,13 +162,13 @@
   line-height: 95px;
   margin-bottom: 8px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space h1 {
     font-size: 3.2rem;
     line-height: 1.5;
     margin-bottom: 4px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .main-space h1 {
     font-size: 2rem;
     margin-bottom: 0; } }
@@ -186,7 +186,7 @@
   margin-bottom: 24px;
   font-weight: 500; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .sub-title {
     margin-bottom: 20px; } }
 
@@ -197,20 +197,20 @@
   font-size: 1.6rem;
   color: #6c6c6c; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .sub-title h2 {
     font-size: 1.6rem; }
   .sub-title p {
     font-size: 1.4rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .sub-title h2 {
     font-size: 1.4rem; } }
 
 .main-space article ul li:nth-child(odd) {
   margin-bottom: 24px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space article ul li:nth-child(odd) {
     margin-bottom: 16px; } }
 
@@ -218,25 +218,25 @@
   font-size: 2rem;
   opacity: 0.6; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space article ul li:nth-child(even) {
     font-size: 1.6rem; } }
 
 .main-space article ul li:nth-child(even):not(:last-of-type) {
   margin-bottom: 40px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space article ul li:nth-child(even):not(:last-of-type) {
     margin-bottom: 24px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space article ul li img {
     width: 510px;
     height: 292px; }
   .main-space article ul li:first-of-type img {
     height: 333px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .main-space article ul li img {
     width: 345px;
     height: 225px !important; } }
@@ -251,11 +251,11 @@
   margin-top: 48px;
   font-weight: 700; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .share {
     margin-top: 28px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .share {
     margin-top: 20px; } }
 
@@ -263,7 +263,7 @@
   margin-right: 20px;
   font-size: 2rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .share p {
     margin-right: 16px;
     font-size: 1.6rem; }
@@ -280,12 +280,12 @@
   border: none;
   border-top: 1px solid #000; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-space .custom-hr {
     margin-top: 20px;
     margin-bottom: 16px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .main-space .custom-hr {
     margin-top: 16px;
     margin-bottom: 10px; } }
@@ -298,7 +298,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .prev-next {
     display: block; } }
 
@@ -311,7 +311,7 @@
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .prev-next a:nth-child(even) {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -331,11 +331,11 @@
   margin-left: 8px;
   margin-right: 8px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .prev-next a p {
     font-size: 1.6rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .prev-next a p {
     font-size: 1.4rem;
     margin-left: 4px;
@@ -350,7 +350,7 @@
   margin-bottom: 8px;
   float: left; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .side-space a {
     font-size: 1.6rem;
     margin-bottom: 0; } }
@@ -359,11 +359,11 @@
   margin-right: 24px;
   clear: left; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .side-space a:nth-child(even) {
     margin-right: 16px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .side-space a {
     margin-right: 8px !important;
     clear: none !important; } }
@@ -385,7 +385,7 @@
   height: 48px;
   margin-right: 8px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .side-space h2 {
     font-size: 2rem;
     margin-bottom: 8px; }

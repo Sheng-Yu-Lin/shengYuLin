@@ -2,7 +2,7 @@
   background-color: #650300;
   font-weight: 700; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul li:last-of-type {
     display: none; } }
 
@@ -20,22 +20,22 @@
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search ul {
     width: 690px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul {
     width: 345px; } }
 
 .search ul li:not(:first-of-type):not(:last-of-type) {
   margin-left: 48px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search ul li:not(:first-of-type):not(:last-of-type) {
     margin-left: 32px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .search ul li:not(:first-of-type):not(:last-of-type) {
     margin-left: 24px; } }
 
@@ -66,7 +66,7 @@
 .search a {
   font-size: 2rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .search a {
     font-size: 1.6rem; } }
 
@@ -74,12 +74,12 @@
   margin-top: 96px;
   margin-bottom: 160px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog {
     margin-top: 60px;
     margin-bottom: 96px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog {
     margin-top: 28px;
     margin-bottom: 56px; } }
@@ -94,12 +94,12 @@
   border-left: 8px solid #9F1213;
   font-weight: 700; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog h2 {
     border-left: 4px solid #9F1213;
     margin-bottom: 40px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog h2 {
     font-size: 2.8rem;
     padding-left: 8px;
@@ -109,11 +109,11 @@
 .blog .blog-list li:not(:last-of-type) {
   margin-bottom: 60px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li:not(:last-of-type) {
     margin-bottom: 24px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog .blog-list li:not(:last-of-type) {
     margin-bottom: 20px; } }
 
@@ -136,23 +136,23 @@
   position: relative;
   width: 445px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a > div {
     width: 322px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog .blog-list li a > div > p {
     display: none; } }
 
 .blog .blog-list li a img {
   margin-right: 30px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a img {
     width: 330px;
     height: 208px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog .blog-list li a img {
     width: 345px;
     height: 217px;
@@ -164,7 +164,7 @@
   color: #650300;
   margin-bottom: 2px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a h3 {
     font-size: 2rem;
     margin-bottom: 0; } }
@@ -182,11 +182,11 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a > div div {
     margin-bottom: 32px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .blog .blog-list li a > div div {
     margin-bottom: 0; } }
 
@@ -194,7 +194,7 @@
   font-size: 2rem;
   font-weight: 500; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a .blog-eng-name {
     font-size: 1.6rem; } }
 
@@ -203,7 +203,7 @@
   font-size: 1.6rem;
   font-weight: 500; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a .blog-date {
     font-size: 1.4rem; } }
 
@@ -211,7 +211,7 @@
   font-size: 2rem;
   color: #555; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a .preview-text {
     font-size: 1.4rem; }
   .blog .blog-list li a .preview-text .size-L {
@@ -232,7 +232,7 @@
 .blog .blog-list li a .span-more {
   display: none; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .blog .blog-list li a .span-more {
     display: inline; }
   .blog .blog-list li a .span-more:hover {
@@ -259,11 +259,11 @@
       -ms-flex-pack: center;
           justify-content: center; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .page-select {
     margin-top: 64px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .page-select {
     margin-top: 40px; } }
 
@@ -276,7 +276,7 @@
 .page-select li a {
   color: #555555; }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .page-select li {
     font-size: 1.6rem; } }
 
