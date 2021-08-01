@@ -125,7 +125,8 @@
           align-items: center; }
 
 .location > ul > li .button:hover {
-  background-color: gray; }
+  background-color: gray;
+  text-decoration: none; }
 
 @media (max-width: 1024px) {
   .location > ul > li .button {
