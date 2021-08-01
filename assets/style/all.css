@@ -128,7 +128,7 @@ h2 {
 .top0-header .banner {
   margin: 0 auto;
   padding-right: 405px;
-  background: url("/assets/images/banner.png") no-repeat center center;
+  background: url("../images/banner.png") no-repeat center center;
   background-size: cover;
   height: 640px;
   display: -webkit-box;
@@ -162,7 +162,7 @@ h2 {
 
 @media (max-width: 425px) {
   .top0-header .banner {
-    background: url("/assets/images/banner-sm.png") no-repeat center center;
+    background: url("../images/banner-sm.png") no-repeat center center;
     background-size: cover;
     height: 394px;
     padding-right: 15px; }
@@ -375,7 +375,7 @@ h2 {
 .main .jointly {
   padding-top: 60px;
   padding-bottom: 80px;
-  background: url("/assets/images/bg.png") no-repeat center center;
+  background: url("../images/bg.png") no-repeat center center;
   background-size: cover;
   font-weight: 700; }
 
