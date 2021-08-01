@@ -162,7 +162,7 @@ h2 {
 
 @media (max-width: 375px) {
   .top0-header .banner {
-    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true") no-repeat center center;
+    background: url("/assets/images/banner-sm.png") no-repeat center center;
     background-size: cover;
     height: 394px;
     padding-right: 15px; }
