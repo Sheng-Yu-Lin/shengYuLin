@@ -120,6 +120,9 @@ a:hover {
   padding-bottom: 39px;
   font-size: 1.6rem; }
 
+.footer .footer-top img:hover {
+  background-color: #cb0801; }
+
 @media (max-width: 1024px) {
   .footer > * {
     width: 690px; } }

@@ -251,6 +251,13 @@
   margin-top: 48px;
   font-weight: 700; }
 
+.share img:hover {
+  background-color: #e6e6e6;
+  border-radius: 6px; }
+
+.share img[alt="facebook logo"]:hover {
+  border-radius: 1px; }
+
 @media (max-width: 1024px) {
   .share {
     margin-top: 28px; } }

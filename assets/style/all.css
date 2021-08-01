@@ -642,6 +642,9 @@ h2 {
   padding-bottom: 39px;
   font-size: 1.6rem; }
 
+.footer .footer-top img:hover {
+  background-color: #cb0801; }
+
 @media (max-width: 1024px) {
   .footer > * {
     width: 690px; } }
@@ -789,31 +792,5 @@ h2 {
 @media (max-width: 425px) {
   .footer .footer-bottom ul li:last-of-type {
     margin-left: 0; } }
-
-/*
-$color: #00cc99;
-
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
-*/
 
 /*# sourceMappingURL=all.css.map */
