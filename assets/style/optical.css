@@ -41,9 +41,6 @@
     padding-bottom: 11px; }
   .main .menu ul li:nth-child(1) a {
     padding-top: 7px;
-    padding-bottom: 8px; }
-  .main .menu ul li:not(:nth-child(1)) a:hover {
-    padding-top: 7px;
     padding-bottom: 8px; } }
 
 @media (max-width: 425px) {
