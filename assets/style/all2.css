@@ -106,7 +106,12 @@ a:hover {
   .top0-header .title li a {
     line-height: 2.9rem; }
   .top0-header .title li:nth-child(odd) {
-    border-right: none; } }
+    border-left: none;
+    border-right: none; }
+  .top0-header .title li:nth-child(even) {
+    border-right: none; }
+  .top0-header .title li:nth-child(3), .top0-header .title li:nth-child(4) {
+    border-bottom: none; } }
 
 .footer {
   background-color: #AA0601;
